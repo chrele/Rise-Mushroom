@@ -1,0 +1,76 @@
+:root {
+    --orange-color: #EC9020;
+    --white-washed-color: #F5F4EF ;
+    --white-color: #FFF ;
+    --black-font-color: #313431;
+    --blue-gradient-color: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 50%, #91EAE4 100%);
+}
+
+.sections {
+    width: 100%;
+    height: 100%;
+    min-width: 1440px;
+    min-height: 960px;
+    flex-shrink: 0;
+} 
+
+.dark-blue {
+    background: var(--blue-gradient-color);
+}
+
+.white-bg {
+    background-color: var(--white-color) !important;
+}
+
+.white {
+    color: var(--white-color);
+}
+
+.white-washed {
+    background: var(--white-washed-color);
+}
+
+.orange {
+    background-color: var(--orange-color) !important;
+}
+
+.btn {
+    border-radius: 2px !important;
+    border: 2px solid #000 !important;
+    color: #313431;
+    font-size: 16px;
+    font-family: Chelsea Market;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../images/splash-bg.png'), lightgray 50%;
+    background-size: 100%;
+}
+
+.title {
+    text-align: center;
+    font-family: Chelsea Market;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 89.746%; /* 107.695px */
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; /* 33.8px */
+    text-transform: capitalize;
+}
+
+.splash {
+    height: 80%!important;
+}
