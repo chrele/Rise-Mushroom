@@ -66,12 +66,25 @@
     text-transform: uppercase;
 }
 
+.border-why-us {
+    border: 2px solid #313431;
+}
+
 .title-in-card {
     font-family: Chelsea Market;
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
     line-height: 90%; /* 72px */
+    text-transform: uppercase;
+}
+
+.title-in-why-us {
+    font-family: Chelsea Market;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 45px */
     text-transform: uppercase;
 }
 
@@ -99,6 +112,10 @@
     text-transform: uppercase;
 }
 
+.bg-image {
+ position: relative;
+}
+
 .title-in-our-story {
     color: #FFF;
     font-family: Chelsea Market;
@@ -107,6 +124,22 @@
     font-weight: 400;
     line-height: 140%; /* 56px */
     text-transform: uppercase;
+}
+
+.why-us-logo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.why-us-p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-transform: capitalize;
 }
 
 .signature {
@@ -5402,6 +5435,10 @@
   .mx-5 {
     margin-left: 4.5rem !important; }
   
+  .my-10 {
+    margin-top: 8rem !important;
+    margin-bottom: 8rem !important;
+  }
   .p-0 {
     padding: 0 !important; }
   
