@@ -56,6 +56,49 @@
     background-size: 100%;
 }
 
+.magic-map {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url('../images/magic-map-bg.png'), lightgray 50%;
+    background-size: 100%;
+}
+
+.magic-map-img {
+    top: 0;
+}
+
+.accordion-button {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    text-transform: capitalize;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    font-weight: bold;
+    background-color: white !important;
+    border-bottom: #000 solid 2px;
+}
+
+.accordion-body {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    text-transform: capitalize;
+}
+
+.title-in-faq {
+    font-family: Chelsea Market;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90%; /* 45px */
+    text-transform: uppercase;
+}
+
 .title {
     text-align: center;
     font-family: Chelsea Market;
